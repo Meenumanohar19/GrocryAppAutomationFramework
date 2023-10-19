@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CreateDeleteExpense(failed)">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="com.obsqura.tests.CreateDeleteExpense">
+        <methods>
+          <include name="TearDown"/>
+          <include name="ManageExpenseTest"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.CreateDeleteExpense -->
+    </classes>
+  </test> <!-- CreateDeleteExpense(failed) -->
+</suite> <!-- Failed suite [Suite] -->
